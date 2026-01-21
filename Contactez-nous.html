@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="FRA">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="icon" href="S.O.S LOGEMENT.png">
+        <link rel="stylesheet" href="Contactez-nous.css" type="text/css">
+        <title>CONTACTEZ-NOUS</title>
+        
+       
+    </head>
+    <body class="body">
+                    <!-- الشريط العلوي. -->
+
+
+                                     <!-- الأول -->
+        <!-- الشريط العلوي -->
+        <div class="one">
+            <div class="C" >
+                
+                <p>Dakar-sénégal</p>
+                <p>+221 77 123 45 67</p>
+                <p>Exemple@youdomain.com</p>
+           </div>
+            <div >
+                <img src="S.O.S LOGEMENT.png" alt="S.O.S LOGEMENT" width="90px" height="90">
+                <!-- بقي الموقع ومواقعنا التواصلية وزر تسجيل الدخول. -->
+            </div>
+            
+        </div>
+
+                                       <!-- الثاني -->
+
+        <!-- أقسام الموقع "الشريط الذي فيه الأقسام" -->
+                             <!-- للجوال -->
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>  
+        <!-- للابتوب والكمبيوتر -->
+        <div class="tow" >
+            <button onclick="window.location.href='page-accueil.html'">Accueil</button>
+            <button onclick="window.location.href='page-offres.html'">Logements</button>
+            <button onclick="window.location.href='page-terrain.html'">terrain</button>         
+            <button onclick="window.location.href='Actualités.html'">Actualités</button>         
+            <button onclick="window.location.href='Contactez-nous.html'">Contactez-nous</button>
+            <button  onclick="window.location.href='Section-du-bailleur-justification.html'">Section du propriéteur</button>
+            <button onclick="window.location.href='Se-Connecter.html'">Se Connecter</button>
+        </div>
+
+        <!-- --------------------------------------------------------------------- -->
+        <!-- --------------------------------------------------------------------- -->
+
+
+                                    <!-- الأول -->
+        <div class="thri">
+            <h1>Contact</h1>
+        </div>
+        <br>
+                                    <!-- الثاني -->
+        <div class="for">
+            
+            <p>Chez <b>S.O.S LOGEMENT</b>, nous croyons que chacun mérite un toit sûr, digne et accessible. Notre mission est simple mais essentielle : accompagner, orienter et soutenir toutes les personnes en quête d’un logement, qu’il s’agisse d’une urgence ou d’un besoin à long terme.</p>
+        </div>
+        
+        <br>
+       
+                                    <!-- الثالث -->
+        <div class="five"> 
+            <form>
+                <fieldset>
+                    <legend>Contactez-nous</legend>
+
+                        <label>Nom</label>
+                        <input type="text" name="Nom" placeholder="Ton Nom" required><br><br>
+                        <label>Prénom</label>
+                        <input type="text" name="Prénom" placeholder="Ton Prénom" required>                
+                        <br>
+                        <br>
+                        <label>Téléphone</label>
+                        <input type="tel" name="Téléphone" placeholder="Ex: 77 000 00 00" required>
+                        <br> 
+                        <br>
+                        <label>E-mail</label>
+                        <input type="email" name="E-mail" placeholder="Exemple@domaine.com"required>
+                        <br>
+                        <br>
+                        <label>Votre Sujet</label>
+                        <br>
+                        <textarea cols="36" required></textarea>
+                        <br> 
+                        <br>
+                        <label>Votre Questions est:</label><br><br>
+                        <textarea rows="6" cols="36"></textarea required>
+                        <br>
+                        <br>
+                        <label>vous étè bailleur?</label required>
+                        <br>
+                        <input type="radio" name="Vous éte bailleur?" value="Non">Non<br>
+                        <input type="radio" name="Vous éte bailleur?" value="Oui">Oui
+                        <br>
+                        <input type="submit" value="ENVOYER" class="btn">
+                </fieldset>
+                
+                
+            </form>
+        </div>
+        <br>
+        <br>
+        <br>
+
+                <!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
+        <!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+        </div>
+        <div class="height">
+            <div class="imag"><br>
+                <img src="S.O.S LOGEMENT.png" width="100%" height="80%">
+           </div>
+          
+           <div class="A">
+            <h1>contacts</h1>
+            <p>Dakar-sénégal</p>
+            <p>+221 77 123 45 67</p>
+            <p>Exemple@youdomain.com</p>
+           </div>
+           
+           <div class="B">
+                <h1>Lieu rapide</h1>
+                <br>
+                <a href="page-accueil.html">Accueil</a><br>
+                <a href="page-offres.html">Logements</a><br>
+                <a href="">terrain</a><br>         
+                <a href="">Actualités</a><br>
+                <a href="Contactez-nous.html">Contactez-nous</a><br>
+                <a href="Section-du-bailleur-justification.html">Section du propriéteur</a>
+           </div>
+        </div>
+        <div class="droits">
+        <p> © 2026 – Tous droits réservés Clarté, crédibilité et engagement.</p>
+        </div>
+        <div class="motiver">
+        <p>Votre avenir commence ici. Un choix aujourd’hui, une tranquillité demain.</p>
+        </div>
+
+
+        <script>
+            function toggleMenu() {
+                document.querySelector('.tow').classList.toggle('show');
+            }
+        </script>
+
+    </body>
+</html>

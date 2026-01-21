@@ -1,0 +1,23 @@
+.body{
+    background-color: rgb(244, 244, 244);
+}
+.one
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.one fieldset
+{
+    background-color: azure;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.btn{
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 40px;
+}

@@ -1,0 +1,192 @@
+                        /* الشريط العلوي.  */
+
+
+                        /* الأول */
+/* الشعار ومواقعنا التواصلية وزر تسجيل الدخول والتواصل معنا */
+.one
+{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items:center;
+    padding: 12px  16px;
+    flex-wrap: wrap;
+}
+.one p{
+    line-height: 1.6;
+    font-size: 14px;
+}
+.one button{
+    background-color: #fffefe;
+    border-radius:12px;
+    border:1px solide #ddd;
+    padding:8px 14px;
+    cursor:pointer;
+
+}
+.one button:hover{
+    background: rgba(0, 0, 0, 0.029);
+}
+@media (max-width: 768px) {
+
+    .one {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .one img {
+        width: 90px;
+        height: auto;
+    }
+
+    .one button {
+        width: 100%;
+        max-width: 220px;
+    }
+}
+
+                    /* الثاني  */
+
+.tow {
+    background-color: rgb(184, 44, 44);
+    display: flex;
+    
+}
+
+.tow button {
+    flex: 1;              /* السر هنا 🔥 */
+    background-color: rgb(184, 44, 44);
+    border: none;
+    color: rgb(250, 251, 252);
+    font-size: 14px;
+    cursor: pointer;
+    width: 100%;
+    padding: 12px 10px;
+}
+
+.tow button:hover {
+    background-color: rgb(150, 30, 30);
+}
+@media (max-width: 768px) {
+
+    .tow {
+        flex-direction: column;
+        display: none; /* مخفية افتراضيًا */
+        width: 100%;
+    }
+
+    .tow.show {
+        display: flex; /* تظهر عند الضغط */
+    }
+
+    .tow button {
+        font-size: 16px;
+        padding: 12px;
+        text-align: center;
+    }
+}
+.menu-toggle {
+    display: none;
+    background-color: rgb(184, 44, 44);
+    color: white;
+    font-size: 24px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* يظهر فقط في الجوال */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+        width: 100%;
+    }
+}
+
+/* ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------- */
+
+
+.five
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:50px;
+    
+}
+
+.five fieldset
+{
+    background-color: azure;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.btn{
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+/* --------------------------------------------------------------------- */
+.height{
+    height: 60vh;
+    width: 100%;
+    background-color: rgb(184, 44, 44);
+    display: flex;
+    gap: 3%;
+    
+}
+.A{
+    margin-top: 20px;
+}
+
+.A h1{
+    font-family: Times ;
+    font-size: 150%;
+    margin-bottom: 15%;
+    color: white;
+}
+.A p {
+    font-size: 90%;
+    line-height: 1.8;      
+    margin-bottom: 8px;   
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.B{
+    margin-top: 20px;
+}
+.B h1{
+    font-family:'Times New Roman', Times, serif;
+    color: aliceblue;
+    font-size: 130%;
+}
+.B a{
+    font-size: 90% ;
+    line-height: 21px;
+    margin-right: 10px;
+}
+
+.droits{
+    margin: 5px;
+    font-size: 2.5vh;
+   
+}
+.motiver{
+    height: 7vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(184, 44, 44);
+}
+.motiver p{
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    font-size: 3vh;
+    text-align: center;
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="FRA">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>SECTION DU BAILLEUR-justification</title>
+        <link rel="icon" href="S.O.S LOGEMENT.png">
+        <link rel="stylesheet" href="bailleur-justification.css" type="text/css">
+    </head>
+    <body class="body">
+                    <!-- الشريط العلوي. -->
+
+
+                                     <!-- الأول -->
+        <!-- الشريط العلوي -->
+        <div class="one">
+            <div class="C" >
+                
+                <p>Dakar-sénégal</p>
+                <p>+221 77 123 45 67</p>
+                <p>Exemple@youdomain.com</p>
+           </div>
+            <div >
+                <img src="S.O.S LOGEMENT.png" alt="S.O.S LOGEMENT" width="90px" height="90">
+                <!-- بقي الموقع ومواقعنا التواصلية وزر تسجيل الدخول. -->
+            </div>
+            
+        </div>
+
+                                       <!-- الثاني -->
+
+        <!-- أقسام الموقع "الشريط الذي فيه الأقسام" -->
+                             <!-- للجوال -->
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>  
+        <!-- للابتوب والكمبيوتر -->
+        <div class="tow" >
+            <button onclick="window.location.href='page-accueil.html'">Accueil</button>
+            <button onclick="window.location.href='page-offres.html'">Logements</button>
+            <button onclick="window.location.href='page-terrain.html'">terrain</button>         
+            <button onclick="window.location.href='Actualités.html'">Actualités</button>         
+            <button onclick="window.location.href='Contactez-nous.html'">Contactez-nous</button>
+            <button  onclick="window.location.href='Section-du-bailleur-justification.html'">Section du propriéteur</button>
+            <button onclick="window.location.href='Se-Connecter.html'">Se Connecter</button>
+        </div>
+
+        <!-- --------------------------------------------------------------------- -->
+        <!-- --------------------------------------------------------------------- -->
+
+
+
+                                    <!-- الأول -->
+        <div class="thri">
+            <h1>SECTION DU BAILLEUR</h1>
+        </div>
+                                    <!-- الثاني -->
+        <div class="for">
+            <p>
+                Cette section est réservée aux propriétaires souhaitant publier leurs biens.
+
+                Ils peuvent y ajouter les photos de leurs propriétés ainsi que tous les détails nécessaires.
+
+                Les annonces seront publiées sur le site après vérification et approbation des conditions de diffusion.
+            </p>
+        </div>
+
+                                    <!-- الثالث -->
+        <div class="five"> 
+            <form>
+                <fieldset>
+                    <legend>Qui êtes vous</legend>
+
+                    <label>Nom</label>
+                    <input type="text" name="Nom" placeholder="Votre Nom" required><br><br>
+                    <label>Prénom</label>
+                    <input type="text" name="Prénom" placeholder="Votre Prénom" required>
+                    <br>
+                    <br>
+                    
+                </fieldset>
+                
+               
+                                
+                <fieldset>
+                    <legend>Pouvez-vous nous Expliquer ici</legend>
+                    <br> 
+                    <br>
+
+                    <label>Votre conditions est:</label>
+                    <br>
+                    <br>
+                    <textarea rows="10" cols="40"></textarea required>
+                    <br>
+                    <br>
+                    <label>Notre commussion est:</label>
+                    <input type="number" name="commussion" placeholder="%" value="%" required>
+                    <br>
+                    <br>
+                    <br>
+                    <input required  type="checkbox">j'accepte tout les <a href="Condition-utilisateurs.html" target="_blank"><b>Conditions  d'utlisateur</b></a>
+                    <br>
+                    <input type="submit" value="ENVOYER" class="btn">
+                </fieldset>
+                
+                
+            </form>
+        </div>
+        
+        <hr class="hr">
+                                    <!-- الرابع -->
+        <div class="NB"> 
+            <p>
+                <ul>
+                    <!-- بعد أن يسرس رسالته يرسل إليه هذه الرسالة مباشرة باللغة الفرنسية:
+                    ستستغرق أسبوعا على الأقل ريثما نضيفك على الموقع -->
+                    <b><ins>NB</ins>:</b>
+                    <br>
+                    <li>Nous vous contacterons pour suivre les démarches:</li>
+                    -Recevoir <b>Votre offres</b>, Prix, localisation,...
+                    <li>La période peut prendre au moins une semaine.</li>
+                </ul>
+            </p>
+        </div>
+
+                <!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
+        <!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+        </div>
+        <div class="height">
+            <div class="imag"><br>
+                <img src="S.O.S LOGEMENT.png" width="100%" height="70%">
+           </div>
+          
+           <div class="A">
+            <h1>contacts</h1>
+            <p>Dakar-sénégal</p>
+            <p>+221 77 123 45 67</p>
+            <p>Exemple@youdomain.com</p>
+           </div>
+           
+           <div class="B">
+                <h1>Lieu rapide</h1>
+                <br>
+                <a href="page-accueil.html">Accueil</a><br>
+                <a href="page-offres.html">Logements</a><br>
+                <a href="">terrain</a><br>         
+                <a href="">Actualités</a><br>
+                <a href="Contactez-nous.html">Contactez-nous</a><br>
+                <a href="Section-du-bailleur-justification.html">Section du propriéteur</a>
+           </div>
+        </div>
+        <div class="droits">
+        <p> © 2026 – Tous droits réservés Clarté, crédibilité et engagement.</p>
+        </div>
+        <div class="motiver">
+        <p>Votre avenir commence ici. Un choix aujourd’hui, une tranquillité demain.</p>
+        </div>
+
+
+        <script>
+            function toggleMenu() {
+                document.querySelector('.tow').classList.toggle('show');
+            }
+        </script>
+
+    </body>
+</html>
